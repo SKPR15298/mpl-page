@@ -11,7 +11,7 @@
 >
 	<div class="grid w-full max-w-7xl grid-cols-1 items-center gap-12 md:grid-cols-2">
 		<!-- Left Column -->
-		<div class="space-y-2">
+		<div class="mt-12 space-y-2 md:mt-0">
 			<!-- Pill -->
 			<p class="text-2xl font-semibold text-blue-600 italic backdrop-blur-sm"># Tentang Kami</p>
 

@@ -6,7 +6,7 @@
 <section class="relative w-full bg-[#fafafa] px-6 pb-24">
 	<div class="mx-auto grid max-w-7xl grid-cols-1 items-start gap-8 md:grid-cols-[30%_70%]">
 		<!-- Left Image -->
-		<div class="flex justify-center md:justify-start">
+		<div class="mt-12 flex justify-center md:mt-0 md:justify-start">
 			<img
 				src="/images/person.png"
 				alt="Founder"

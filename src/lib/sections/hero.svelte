@@ -80,22 +80,14 @@
 				Dipercaya oleh rumah sakit & institusi kesehatan ternama
 			</p>
 			<div class="flex flex-wrap items-center justify-center gap-4 md:gap-8">
-				<div
-					alt="Company 1"
-					class="h-6 bg-gray-200 opacity-80 grayscale transition hover:grayscale-0 md:h-8"
-				/>
-				<div
-					alt="Company 2"
-					class="h-6 bg-gray-200 opacity-80 grayscale transition hover:grayscale-0 md:h-8"
-				/>
-				<div
-					alt="Company 3"
-					class="h-6 bg-gray-200 opacity-80 grayscale transition hover:grayscale-0 md:h-8"
-				/>
-				<div
-					alt="Company 4"
-					class="h-6 bg-gray-200 opacity-80 grayscale transition hover:grayscale-0 md:h-8"
-				/>
+				<!-- svelte-ignore element_invalid_self_closing_tag -->
+				<div class="h-6 bg-gray-200 opacity-80 grayscale transition hover:grayscale-0 md:h-8" />
+				<!-- svelte-ignore element_invalid_self_closing_tag -->
+				<div class="h-6 bg-gray-200 opacity-80 grayscale transition hover:grayscale-0 md:h-8" />
+				<!-- svelte-ignore element_invalid_self_closing_tag -->
+				<div class="h-6 bg-gray-200 opacity-80 grayscale transition hover:grayscale-0 md:h-8" />
+				<!-- svelte-ignore element_invalid_self_closing_tag -->
+				<div class="h-6 bg-gray-200 opacity-80 grayscale transition hover:grayscale-0 md:h-8" />
 			</div>
 		</div>
 	</div>
