@@ -4,7 +4,7 @@
 	import Icon from '@iconify/svelte';
 </script>
 
-<section class="relative w-full bg-white px-6 py-24 text-gray-800">
+<section id="contact" class="relative w-full bg-white px-6 py-24 text-gray-800">
 	<!-- Section Heading -->
 	<div class="mx-auto max-w-7xl space-y-4 text-center">
 		<h2 class="text-4xl font-extrabold text-blue-700">Informasi Pelayanan</h2>

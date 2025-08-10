@@ -5,7 +5,10 @@
 	import Icon from '@iconify/svelte';
 </script>
 
-<section class="relative flex min-h-[70dvh] w-full items-center justify-center bg-[#fafafa] px-6">
+<section
+	id="about"
+	class="relative flex min-h-[70dvh] w-full items-center justify-center bg-[#fafafa] px-6"
+>
 	<div class="grid w-full max-w-7xl grid-cols-1 items-center gap-12 md:grid-cols-2">
 		<!-- Left Column -->
 		<div class="space-y-2">
