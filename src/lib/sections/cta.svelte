@@ -13,13 +13,13 @@
 			</p>
 			<div class="mt-6 flex justify-center gap-4 md:justify-start">
 				<a
-					href="#katalog"
+					href=""
 					class="rounded-lg bg-white px-5 py-3 font-medium text-blue-700 shadow transition-colors duration-200 hover:bg-blue-50"
 				>
 					Cek katalog
 				</a>
 				<a
-					href="#hubungi"
+					href=""
 					class="rounded-lg bg-blue-400 px-5 py-3 font-medium text-white shadow transition-colors duration-200 hover:bg-blue-300/60"
 				>
 					Hubungi admin
