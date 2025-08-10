@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+:root {
+	--font-rubik: 'Rubik', sans-serif;
+}
+
+html {
+	font-family: var(--font-rubik);
+}
+html,
+body {
+	overflow-x: hidden;
+}
