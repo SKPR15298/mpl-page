@@ -43,6 +43,7 @@
 			<div class="hidden sm:flex sm:items-center sm:gap-6">
 				<a href="/" class="hover:text-brand whitespace-nowrap">Beranda</a>
 				<a href="/#about" class="hover:text-brand whitespace-nowrap">Tentang Kami</a>
+				<!-- svelte-ignore a11y_invalid_attribute -->
 				<a href="" class="hover:text-brand whitespace-nowrap">Katalog</a>
 				<a href="/#contact" class="hover:text-brand whitespace-nowrap">Kontak</a>
 				<!-- WhatsApp desktop button -->
