@@ -26,7 +26,7 @@
     ${
 			$scrolled
 				? 'border-gray-300 bg-white text-gray-800 shadow-sm'
-				: 'border-white/10 bg-white/20 text-white backdrop-blur-lg'
+				: 'border-white/10 bg-gray-600/30 text-white backdrop-blur-2xl'
 		}`.trim()}
 >
 	<div class="mx-auto px-4 sm:px-6 md:max-w-7xl lg:px-8">
@@ -35,7 +35,7 @@
 				<img
 					src="/images/mpl-logo.png"
 					alt="PT. Murni Putra Lang Logo"
-					class="h-12 w-auto md:h-16"
+					class="h-12 w-auto md:h-20"
 				/>
 			</a>
 

@@ -17,10 +17,10 @@
 					</h2>
 					<ul class="font-medium text-gray-500 dark:text-gray-400">
 						<li class="mb-4">
-							<a href="https://murniputralang.com/" class="hover:underline">Tentang Kami</a>
+							<a href="#about" class="hover:underline">Tentang Kami</a>
 						</li>
 						<li>
-							<a href="https://tailwindcss.com/" class="hover:underline">Informasi Layanan</a>
+							<a href="#contact" class="hover:underline">Informasi Layanan</a>
 						</li>
 					</ul>
 				</div>
@@ -30,10 +30,13 @@
 					</h2>
 					<ul class="font-medium text-gray-500 dark:text-gray-400">
 						<li class="mb-4">
-							<a href="https://github.com/themesberg/flowbite" class="hover:underline">E-Katalog</a>
+							<!-- svelte-ignore a11y_invalid_attribute -->
+							<a href="" class="hover:underline">E-Katalog</a>
 						</li>
 						<li>
-							<a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Inaproc</a>
+							<a href="https://katalog.inaproc.id/murni-putra-lang" class="hover:underline"
+								>Inaproc</a
+							>
 						</li>
 					</ul>
 				</div>
@@ -41,9 +44,11 @@
 					<h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
 					<ul class="font-medium text-gray-500 dark:text-gray-400">
 						<li class="mb-4">
+							<!-- svelte-ignore a11y_invalid_attribute -->
 							<a href="#" class="hover:underline">Kebijakan Privasi</a>
 						</li>
 						<li>
+							<!-- svelte-ignore a11y_invalid_attribute -->
 							<a href="#" class="hover:underline">Syarat &amp; Ketentuan</a>
 						</li>
 					</ul>
@@ -58,6 +63,7 @@
 				>. All Rights Reserved.
 			</span>
 			<div class="mt-4 flex sm:mt-0 sm:justify-center">
+				<!-- svelte-ignore a11y_invalid_attribute -->
 				<a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
 					<svg
 						class="h-4 w-4"
@@ -74,6 +80,7 @@
 					</svg>
 					<span class="sr-only">Facebook page</span>
 				</a>
+				<!-- svelte-ignore a11y_invalid_attribute -->
 				<a href="#" class="ms-5 text-gray-500 hover:text-gray-900 dark:hover:text-white">
 					<svg
 						class="h-4 w-4"
@@ -90,6 +97,7 @@
 					</svg>
 					<span class="sr-only">Twitter page</span>
 				</a>
+				<!-- svelte-ignore a11y_invalid_attribute -->
 				<a href="#" class="ms-5 text-gray-500 hover:text-gray-900 dark:hover:text-white">
 					<svg
 						class="h-4 w-4"

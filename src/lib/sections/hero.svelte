@@ -8,7 +8,7 @@
 	style="background-image: url('/images/hero.jpg');"
 >
 	<!-- Dark Overlay -->
-	<div class="absolute inset-0 z-0 bg-black/20"></div>
+	<div class="absolute inset-0 z-0 bg-black/35"></div>
 
 	<!-- Blueish Gradient Ambient Overlay -->
 	<div
@@ -17,33 +17,41 @@
 
 	<!-- Hero Content -->
 	<div
-		class="relative z-10 mt-[-30px] flex max-w-7xl flex-col items-center justify-center gap-3 px-6 text-center sm:mt-[-60px] sm:gap-4 sm:px-0"
+		class="relative z-10 flex max-w-7xl flex-col items-center justify-center gap-3 px-6 text-center sm:mt-[-60px] sm:gap-4 sm:px-0"
 	>
 		<p
 			use:reveal
-			class="flex max-w-screen-2xl items-center justify-center gap-2 rounded-full border-2 border-white
-         bg-white/30 px-3 py-1.5 text-xs leading-loose leading-relaxed font-semibold
-         text-white drop-shadow-[0_2px_2px_rgba(0,0,139,0.5)] backdrop-blur-sm sm:px-4 sm:py-2 sm:text-sm"
+			class="md:text-md flex max-w-screen-2xl items-center justify-center gap-2 rounded-full border-2
+         border-white bg-white/30 px-3 py-1.5 text-sm leading-loose leading-relaxed
+         font-semibold text-white drop-shadow-[0_2px_2px_rgba(0,0,139,0.5)] backdrop-blur-sm sm:px-4 sm:py-2"
 		>
 			<span>
 				<Icon icon="mdi:location" />
 			</span>
-			Your Surgical Instruments Specialist
+			Berbasis di Malang - Indonesia
 		</p>
 
-		<h1
-			use:reveal={{ delay: 0.2 }}
-			class="text-2xl leading-snug font-bold text-white sm:text-4xl md:text-5xl md:leading-tight"
-		>
-			Kesulitan Mendapatkan Alat Bedah Berkualitas? <br /> Kami hadir untuk menjawab kebutuhan Anda.
-		</h1>
+		<div class="gap-2">
+			<h1
+				use:reveal={{ delay: 0.2 }}
+				class="text-2xl leading-snug font-bold text-white sm:text-4xl md:text-5xl md:leading-tight"
+			>
+				Kesulitan Mendapatkan Alat Bedah Berkualitas? <br /> Kami hadir untuk menjawab kebutuhan Anda.
+			</h1>
+			<p
+				use:reveal={{ delay: 0.3 }}
+				class="font-base mt-2 text-center text-lg text-white italic sm:text-2xl"
+			>
+				PT Murni Putra Lang - Distributor Instrument Bedah
+			</p>
+		</div>
 	</div>
 
 	<!-- Divider Line -->
-	<div
+	<!-- <div
 		use:reveal={{ delay: 0.3 }}
 		class="z-10 mt-6 h-1.5 w-3/4 max-w-2xl bg-white/80 sm:mt-8 sm:h-2"
-	></div>
+	></div> -->
 
 	<!-- Buttons Section -->
 	<div
@@ -76,19 +84,42 @@
 	<!-- Trusted by Companies Section -->
 	<div class="absolute bottom-16 left-1/2 z-10 w-full max-w-7xl -translate-x-1/2 px-6 md:px-12">
 		<div class="flex flex-col items-center justify-center gap-3">
-			<p class="text-sm font-medium text-white/80">
-				Dipercaya oleh rumah sakit & institusi kesehatan ternama
-			</p>
-			<div class="flex flex-wrap items-center justify-center gap-4 md:gap-8">
-				<!-- svelte-ignore element_invalid_self_closing_tag -->
-				<div class="h-6 bg-gray-200 opacity-80 grayscale transition hover:grayscale-0 md:h-8" />
-				<!-- svelte-ignore element_invalid_self_closing_tag -->
-				<div class="h-6 bg-gray-200 opacity-80 grayscale transition hover:grayscale-0 md:h-8" />
-				<!-- svelte-ignore element_invalid_self_closing_tag -->
-				<div class="h-6 bg-gray-200 opacity-80 grayscale transition hover:grayscale-0 md:h-8" />
-				<!-- svelte-ignore element_invalid_self_closing_tag -->
-				<div class="h-6 bg-gray-200 opacity-80 grayscale transition hover:grayscale-0 md:h-8" />
+			<p class="text-sm font-medium text-white/80">Menawarkan Merk berstandar</p>
+
+			<!-- Ticker Wrapper -->
+			<div class="relative w-full max-w-md overflow-hidden">
+				<div class="animate-ticker flex gap-4">
+					<!-- First set -->
+					<div class="h-6 w-24 rounded bg-gray-200 opacity-80 grayscale md:h-8"></div>
+					<div class="h-6 w-24 rounded bg-gray-200 opacity-80 grayscale md:h-8"></div>
+					<div class="h-6 w-24 rounded bg-gray-200 opacity-80 grayscale md:h-8"></div>
+					<div class="h-6 w-24 rounded bg-gray-200 opacity-80 grayscale md:h-8"></div>
+
+					<!-- Duplicate set -->
+					<div class="h-6 w-24 rounded bg-gray-200 opacity-80 grayscale md:h-8"></div>
+					<div class="h-6 w-24 rounded bg-gray-200 opacity-80 grayscale md:h-8"></div>
+					<div class="h-6 w-24 rounded bg-gray-200 opacity-80 grayscale md:h-8"></div>
+					<div class="h-6 w-24 rounded bg-gray-200 opacity-80 grayscale md:h-8"></div>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
+
+<style>
+	/* Make the ticker move left forever */
+	@keyframes ticker {
+		0% {
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(-50%);
+		}
+	}
+
+	.animate-ticker {
+		display: flex;
+		animation: ticker 20s linear infinite; /* Adjust speed */
+		width: max-content;
+	}
+</style>

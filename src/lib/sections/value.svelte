@@ -2,7 +2,7 @@
 	import Icon from '@iconify/svelte';
 </script>
 
-<section class="relative w-full bg-gradient-to-b from-blue-600 to-blue-800 px-6 py-24 text-white">
+<section class="relative w-full bg-gradient-to-b from-blue-500 to-blue-600 px-6 py-24 text-white">
 	<div class="mx-auto max-w-7xl space-y-4 text-center">
 		<h2 class="text-3xl font-extrabold">Nilai-Nilai Inti yang Menjadi Fondasi Kami</h2>
 		<p class="mx-auto max-w-3xl leading-relaxed text-blue-100">
