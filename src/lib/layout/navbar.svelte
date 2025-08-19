@@ -69,9 +69,7 @@
 				<a href="/#about" class="whitespace-nowrap transition duration-200 hover:text-blue-600"
 					>Tentang Kami</a
 				>
-				<a href="/#catalog" class="whitespace-nowrap transition duration-200 hover:text-blue-600"
-					>Katalog</a
-				>
+				<a href="" class="whitespace-nowrap transition duration-200 hover:text-blue-600">Katalog</a>
 				<a href="/#contact" class="whitespace-nowrap transition duration-200 hover:text-blue-600"
 					>Kontak</a
 				>
