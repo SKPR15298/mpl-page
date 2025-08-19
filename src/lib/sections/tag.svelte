@@ -46,15 +46,16 @@
 	});
 </script>
 
-<section bind:this={targetRef} class="bg-blue-600 text-white">
-	<div class="sticky top-0 flex items-center overflow-hidden py-10">
+<section bind:this={targetRef} class="bg-blue-600 text-blue-600">
+	<div class="sticky top-0 flex items-center overflow-hidden py-8">
 		<p
-			class="origin-bottom-left text-xl leading-[0.85] font-black whitespace-nowrap uppercase md:text-5xl md:text-7xl md:leading-[0.85]"
+			class="text-md origin-bottom-left leading-[0.85] font-black whitespace-nowrap text-white uppercase md:text-2xl md:leading-[0.85]"
 			style="transform: skewX({$skewX}deg) translateX({$x}px);"
 		>
 			Your Surgical Instruments Specialist. Your Surgical Instruments Specialist. Your Surgical
 			Instruments Specialist. Your Surgical Instruments Specialist. Your Surgical Instruments
-			Specialist. Your Surgical Instruments Specialist.
+			Specialist. Your Surgical Instruments Specialist. Your Surgical Instruments Specialist. Your
+			Surgical Instruments Specialist. Your Surgical Instruments Specialist.
 		</p>
 	</div>
 </section>

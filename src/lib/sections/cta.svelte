@@ -1,3 +1,7 @@
+<script lang="ts">
+	import { openWhatsApp } from '$lib/function/order_template';
+</script>
+
 <section class="w-full bg-gradient-to-r from-blue-500 to-blue-700 text-white">
 	<div
 		class="mx-auto flex max-w-7xl flex-col items-center justify-between px-6 md:flex-row md:px-12"
@@ -18,12 +22,12 @@
 				>
 					Cek katalog
 				</a>
-				<a
-					href=""
+				<button
+					on:click={() => openWhatsApp('askAdmin')}
 					class="rounded-lg bg-blue-400 px-5 py-3 font-medium text-white shadow transition-colors duration-200 hover:bg-blue-300/60"
 				>
 					Hubungi admin
-				</a>
+				</button>
 			</div>
 		</div>
 

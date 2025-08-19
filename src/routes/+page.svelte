@@ -7,6 +7,7 @@
 	import Service from '$lib/sections/service.svelte';
 	import CTA from '$lib/sections/cta.svelte';
 	import Outlet from '$lib/sections/outlet.svelte';
+	import Documentation from '$lib/sections/documentation.svelte';
 </script>
 
 <div class="flex min-h-screen flex-col items-center justify-center">
@@ -18,4 +19,5 @@
 	<Service />
 	<CTA />
 	<Outlet />
+	<Documentation />
 </div>

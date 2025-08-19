@@ -1,21 +1,19 @@
-<footer class="bg-white dark:bg-gray-900">
+<footer class="bg-gray-900">
 	<div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
 		<div class="md:flex md:justify-between">
 			<div class="mb-6 md:mb-0">
 				<a href="https://murniputralang.com/" class="flex items-center">
 					<img src="images/mpl-logo.png" class="me-3 h-15" alt="MPL Logo" />
 					<span
-						class=" self-center text-2xl font-semibold whitespace-nowrap md:text-xl lg:text-2xl dark:text-white"
+						class=" self-center text-2xl font-semibold whitespace-nowrap text-white md:text-xl lg:text-2xl"
 						>Murni Putra Lang</span
 					>
 				</a>
 			</div>
 			<div class="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">
 				<div>
-					<h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-						Informasi Umum
-					</h2>
-					<ul class="font-medium text-gray-500 dark:text-gray-400">
+					<h2 class="mb-6 text-sm font-semibold text-white uppercase">Informasi Umum</h2>
+					<ul class="font-medium text-gray-400">
 						<li class="mb-4">
 							<a href="#about" class="hover:underline">Tentang Kami</a>
 						</li>
@@ -25,10 +23,8 @@
 					</ul>
 				</div>
 				<div>
-					<h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-						Pembelian
-					</h2>
-					<ul class="font-medium text-gray-500 dark:text-gray-400">
+					<h2 class="mb-6 text-sm font-semibold text-white uppercase">Pembelian</h2>
+					<ul class="font-medium text-gray-400">
 						<li class="mb-4">
 							<!-- svelte-ignore a11y_invalid_attribute -->
 							<a href="" class="hover:underline">E-Katalog</a>
@@ -41,8 +37,8 @@
 					</ul>
 				</div>
 				<div>
-					<h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-					<ul class="font-medium text-gray-500 dark:text-gray-400">
+					<h2 class="mb-6 text-sm font-semibold text-white uppercase">Legal</h2>
+					<ul class="font-medium text-gray-400">
 						<li class="mb-4">
 							<!-- svelte-ignore a11y_invalid_attribute -->
 							<a href="#" class="hover:underline">Kebijakan Privasi</a>
@@ -55,16 +51,16 @@
 				</div>
 			</div>
 		</div>
-		<hr class="my-6 border-gray-200 sm:mx-auto lg:my-8 dark:border-gray-700" />
+		<hr class="my-6 border-gray-700 sm:mx-auto lg:my-8" />
 		<div class="sm:flex sm:items-center sm:justify-between">
-			<span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+			<span class="text-sm text-gray-400 sm:text-center"
 				>© 2025 <a href="https://murniputralang.com/" class="hover:underline"
 					>PT. Murni Putra Lang™</a
 				>. All Rights Reserved.
 			</span>
 			<div class="mt-4 flex sm:mt-0 sm:justify-center">
 				<!-- svelte-ignore a11y_invalid_attribute -->
-				<a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+				<a href="#" class="text-gray-400 hover:text-gray-200">
 					<svg
 						class="h-4 w-4"
 						aria-hidden="true"
@@ -81,7 +77,7 @@
 					<span class="sr-only">Facebook page</span>
 				</a>
 				<!-- svelte-ignore a11y_invalid_attribute -->
-				<a href="#" class="ms-5 text-gray-500 hover:text-gray-900 dark:hover:text-white">
+				<a href="#" class="ms-5 text-gray-400 hover:text-gray-200">
 					<svg
 						class="h-4 w-4"
 						aria-hidden="true"
@@ -98,7 +94,7 @@
 					<span class="sr-only">Twitter page</span>
 				</a>
 				<!-- svelte-ignore a11y_invalid_attribute -->
-				<a href="#" class="ms-5 text-gray-500 hover:text-gray-900 dark:hover:text-white">
+				<a href="#" class="ms-5 text-gray-400 hover:text-gray-200">
 					<svg
 						class="h-4 w-4"
 						aria-hidden="true"
