@@ -58,7 +58,7 @@
 				<img
 					src="/images/mpl-logo.png"
 					alt="PT. Murni Putra Lang Logo"
-					class="h-12 w-auto md:h-25"
+					class="h-12 w-auto md:h-14"
 				/>
 			</a>
 

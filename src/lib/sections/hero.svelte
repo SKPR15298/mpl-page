@@ -88,7 +88,8 @@
 		<div
 			class="mt-12 flex w-full max-w-md flex-col items-center justify-center gap-4 sm:max-w-2xl sm:flex-row"
 		>
-			<button
+			<a
+				href="https://drive.google.com/drive/folders/1lZQxjbe19bRYQrn3dTEY6Dhshe8HqP8X?usp=share_link"
 				class="group flex w-full items-center justify-center gap-3 rounded-xl border border-white/20 bg-gradient-to-br from-[#3f89ff33] to-[#0044ff33] px-6 py-3 text-base font-semibold text-white backdrop-blur-lg transition-all duration-300 hover:from-[#3f89ff55] hover:to-[#0044ff55] hover:shadow-[0_8px_32px_rgba(0,68,255,0.3)] active:scale-[0.97] sm:w-auto"
 			>
 				<Icon
@@ -96,11 +97,11 @@
 					class="text-xl transition-transform duration-300 group-hover:rotate-6"
 				/>
 				<span>Katalog Produk</span>
-			</button>
+			</a>
 
 			<button
 				on:click={() => openWhatsApp('order')}
-				class="group flex w-full items-center justify-center gap-3 rounded-xl border border-white/20 bg-gradient-to-br from-[#00ff8033] to-[#00cc6633] px-6 py-3 text-base font-semibold text-white backdrop-blur-lg transition-all duration-300 hover:from-[#00ff8055] hover:to-[#00cc6655] hover:shadow-[0_8px_32px_rgba(0,204,102,0.3)] active:scale-[0.97] sm:w-auto"
+				class="group flex w-full cursor-pointer items-center justify-center gap-3 rounded-xl border border-white/20 bg-gradient-to-br from-[#00ff8033] to-[#00cc6633] px-6 py-3 text-base font-semibold text-white backdrop-blur-lg transition-all duration-300 hover:from-[#00ff8055] hover:to-[#00cc6655] hover:shadow-[0_8px_32px_rgba(0,204,102,0.3)] active:scale-[0.97] sm:w-auto"
 			>
 				<Icon
 					icon="fluent-chat-16-filled"

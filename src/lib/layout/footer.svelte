@@ -27,7 +27,7 @@
 					<ul class="font-medium text-gray-400">
 						<li class="mb-4">
 							<!-- svelte-ignore a11y_invalid_attribute -->
-							<a href="" class="hover:underline">E-Katalog</a>
+							<a href="" class="hover:underline">E-Catalogue</a>
 						</li>
 						<li>
 							<a href="https://katalog.inaproc.id/murni-putra-lang" class="hover:underline"

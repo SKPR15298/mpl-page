@@ -17,14 +17,14 @@
 			</p>
 			<div class="mt-6 flex justify-center gap-4 md:justify-start">
 				<a
-					href=""
+					href="https://drive.google.com/drive/folders/1lZQxjbe19bRYQrn3dTEY6Dhshe8HqP8X?usp=share_link"
 					class="rounded-lg bg-white px-5 py-3 font-medium text-blue-700 shadow transition-colors duration-200 hover:bg-blue-50"
 				>
 					Cek katalog
 				</a>
 				<button
 					on:click={() => openWhatsApp('askAdmin')}
-					class="rounded-lg bg-blue-400 px-5 py-3 font-medium text-white shadow transition-colors duration-200 hover:bg-blue-300/60"
+					class="cursor-pointer rounded-lg bg-blue-400 px-5 py-3 font-medium text-white shadow transition-colors duration-200 hover:bg-blue-300/60"
 				>
 					Hubungi admin
 				</button>
